@@ -1,0 +1,26 @@
+.todo-item{
+  background:white;
+  border-radius:28px;
+  padding:20px;
+  margin:16px 0;
+  box-shadow:0 10px 36px rgba(0,0,0,.07);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  transition:.25s;
+}
+
+.todo-item:hover{
+  transform:translateY(-4px);
+  box-shadow:0 18px 60px rgba(0,0,0,.1);
+}
+
+.todo-item.done span{
+  text-decoration:line-through;
+  color:#94a3b8;
+}
+.date{
+ font-size:12px;
+ color:#64748b;
+ margin-left:12px;
+}
